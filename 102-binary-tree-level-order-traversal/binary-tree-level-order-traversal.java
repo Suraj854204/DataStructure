@@ -33,12 +33,9 @@ class Solution {
                 if(node.right!=null){
                     q.add(node.right);
                 }
-
             }
             list.add(level);
-
         }
         return list;
-
     }
 }
