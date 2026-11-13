@@ -26,6 +26,5 @@ class Solution {
         dfs(node.left,list);
         list.add(node.val);
         dfs(node.right,list);
-        
     }
 }
